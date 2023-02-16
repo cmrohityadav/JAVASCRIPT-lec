@@ -22,3 +22,13 @@ else if (signal == "yellow") {
 else {
     console.log("Go");
 }
+
+
+// Ternary Op / Ternay Conditon
+//  condtion ? TRUE:False
+
+isloggedin = false;
+isloggedin ? console.log("Buying Mer") : console.log("Not Buying");
+
+
+
