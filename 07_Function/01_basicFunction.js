@@ -16,3 +16,11 @@ let a=sum(8,10);
 console.log(a);
 
 
+
+// function other type ==>variable type function
+let add=function(a,b){
+    return a+b;
+}
+
+console.log(add(5,3));
+

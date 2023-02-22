@@ -19,7 +19,7 @@ msgs();
 msgs("rohit");
 
 // other examples 
-console.log("other examples");
+console.log("other examples =>>default parameter");
 
  function sum(x=0,y=100){
     return x+y;
@@ -27,3 +27,6 @@ console.log("other examples");
 
  console.log(sum(10,10));
 console.log(sum(10));
+
+
+
