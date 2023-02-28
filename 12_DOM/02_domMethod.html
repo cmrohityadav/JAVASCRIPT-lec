@@ -24,7 +24,11 @@
     <h4>Namaste</h4>
     <h4>hola</h4>
     
-
+    <!-- Query Selector -->
+    <h2>hello</h2>
+    <h2 class="classs">HOLAaaa</h2>
+    <h2 class="classs">HOLA</h2>
+    <h2 id="ids">Hey</h2>
 
 
 
@@ -55,8 +59,18 @@
         console.log(var3[1].innerText);
         console.log(var3[2].innerText);
         var3[2].innerText="hola tha ab mera hai"
+        var3[2].style.color="red"
 
 
+
+
+        // Query Selector
+        let var4=document.querySelector(".classs");
+        console.log(var4);
+        var4.className="naam change kr diya class ka";
+        var4.classList=" hi  bye hum";
+        var4.setAttribute("id","js");
+        var4.setAttribute("title","Rohit bhai");
 
     </script>
 </body>
