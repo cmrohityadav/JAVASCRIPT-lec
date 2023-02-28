@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom Part 3 event listner</title>
+</head>
+<body>
+    <h1>Hello Guys</h1>
+    <p id="js"></p>
+
+    <button onclick="hey()" id="ids">Submit</button>
+
+    <!-- script  -->
+    <script>
+        document.addEventListener("click",hello);
+        function hello(){
+            document.getElementById("js").innerText="Kaa ho ?";
+        };
+
+    function hey(){
+        document.getElementById("ids").innerText="Namste bhaiya Ji";
+        document.getElementById("ids").style.color="red";
+        document.getElementById("ids").style.backgroundColor = "black";
+        document.getElementById("ids").style.padding = "16px";
+        document.getElementById("ids").style.border = "2px solid yellow";
+    }
+    </script>
+</body>
+</html>
