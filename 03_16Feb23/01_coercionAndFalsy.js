@@ -29,7 +29,7 @@ if(admins === 2){
     console.log("check")
 }
 
-
+console.log("value of a")
 console.log(typeof(admin == 2))
 let a=admin == 2;
 console.log(a)
