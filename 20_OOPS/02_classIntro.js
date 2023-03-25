@@ -5,6 +5,8 @@ class product{
     rating;
 
 
+    
+
 
     // behaviours -> function ->member function
     //eg. display , buy ,rate etc.
@@ -17,6 +19,7 @@ class product{
 
 
 
-const p=new product();
+const p=new product(); // new -> creates an empty plain object
+
 console.log(p);
 p.display();
