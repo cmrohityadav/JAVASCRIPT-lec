@@ -24,3 +24,11 @@ let add=function(a,b){
 
 console.log(add(5,3));
 
+/*
+
+if you dont return anything in the function then then it will return 
+undefined
+
+
+
+*/
