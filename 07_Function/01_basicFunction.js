@@ -2,6 +2,7 @@ function greet(){
     console.log("hello rohit welcome");
 
 }
+greet //reference
 
 function square(x){ //x=>> parameter
     console.log(x*x);
