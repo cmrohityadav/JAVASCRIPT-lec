@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Welcome</h1>
+    <p id="print"></p>
+    <button id="start">start</button>
+    <button id="stop">Stop</button>
+
+
+
+    <script>
+       const sayTime=(str)=>{
+            let date=new Date()
+
+        console.log(str,date.toLocaleTimeString());
+        print.innerHTML=`<span>${date}</span>`
+       }
+
+    //    const intervalId=setInterval(sayTime,1000,"Rohit")
+
+    //    clearInterval(intervalId)
+
+    let intervalId;
+
+   let print= document.querySelector('#print')
+
+    document.querySelector('#start').
+    addEventListener('click',()=>{
+    intervalId=setInterval(sayTime,1000,"Rohit");
+    
+   
+
+    })
+
+    document.querySelector('#stop').
+    addEventListener('click',()=>{
+    //    const intervalId=setInterval(sayTime,1000,"Rohit")
+        clearInterval(intervalId)
+    })
+
+
+    </script>
+</body>
+</html>
