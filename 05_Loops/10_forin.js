@@ -17,7 +17,7 @@ for (const key in coder) {
 const lang=["c++","js","c#"];
 
 for (const key in lang) {
-    console.log(key)
+    // console.log(key)
 
 }
 
@@ -29,7 +29,7 @@ map.set("USA","America")
 map.set("fr","France")
 map.set("IN","India")
 for (const key in map) {
-    console.log(key)
+    // console.log(key)
 
 }
 
