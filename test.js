@@ -1,4 +1,9 @@
- let sum= ()=> (
-    10
-    )
- console.log(sum())
+const coding = ["js", "ruby", "java", "python", "cpp"]
+
+
+const values = coding.forEach( (item) => {
+    console.log(item);
+    return item
+} )
+
+console.log(values);
