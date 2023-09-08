@@ -27,9 +27,10 @@ function outerFun(){
     let outerVar="I am at scope level 1";
     function innerFun(){
         let innerVar="I am at scope level 2";
-        console.log(outerVar)
+        // console.log(outerVar)
+        console.log(innerVar)
     }
-    console.log(innerVar);
+    // console.log(innerVar);
     innerFun();
 }
 
@@ -42,17 +43,20 @@ function superFun(){
     let outerValue="I am Outer";
 
     function minorFun(){
+        
         console.log(outerValue)
         //upar wali  values ko yeh function access kr skta hai isko hi closure kahte hai
     }
     minorFun();
 }
+
 // superFun();
+// minorFun() //not define
 
 // Examples++++++++++++++++++++++++++
 const errorMsg="file not found"
 setTimeout(function callback(){
-    console.log(errorMsg)
+    // console.log(errorMsg)
 },3000)
 
 
