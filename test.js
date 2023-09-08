@@ -1,9 +1,18 @@
 const coding = ["js", "ruby", "java", "python", "cpp"]
 
 
-const values = coding.forEach( (item) => {
-    console.log(item);
-    return item
-} )
 
-console.log(values);
+ const stud={
+    name:"rohit",
+    roll:40,
+    branch: "extc"
+ }
+
+const func=(obj)=>{
+ 
+ console.log(obj);
+
+
+}
+
+func(stud)
