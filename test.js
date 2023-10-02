@@ -1,6 +1,2 @@
-name();
-
-
-function name(){
-    console.log("rohit")
-}
+const characterIndex=Math.round(Math.random()*16);
+console.log(characterIndex)
