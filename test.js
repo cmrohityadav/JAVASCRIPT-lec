@@ -23,7 +23,11 @@ class bird extends Animals{
     fly(){
         console.log(`bird can fly`)
     }
+    awaj(){
+        console.log("this is bird voice")
+    }
 }
 
 let gauriya =new bird("chhiichiii","insect");
+gauriya.fly()
 gauriya.awaj()
