@@ -1,25 +1,29 @@
-class Rail{
-book(){
+class Animals{
+    constructor(sound,food){
+            this.sound=sound;
+            this.food=food;
+    }
 
-    console.log(`book-> name : ${this.name} train number : ${this.trainNo}`)
-}
-cancle(){
-    console.log(`cancle-> name : ${this.name} train number : ${this.trainNo}`)
-}
-fill(name,trainNo){
-    this.trainNo=trainNo;
-    this.name=name;
+    awaj(){
+        console.log(`Animal ki awaj ${this.sound}`)
+    }
+    khana(){
+        console.log(`Animal ki khana ${this.food}`)
 
-
-}
-
+    }
 
 }
 
-let rohit=new Rail();
+let cat =new Animals("meow","rat");
+cat.awaj();
+cat.khana();
 
-rohit.fill("rohit",159);
-rohit.book();
+class bird extends Animals{
 
-rohit.fill("yadav",456);
-rohit.book();
+    fly(){
+        console.log(`bird can fly`)
+    }
+}
+
+let gauriya =new bird("chhiichiii","insect");
+gauriya.awaj()
