@@ -24,6 +24,7 @@ class bird extends Animals{
         console.log(`bird can fly`)
     }
     awaj(){
+        super.awaj()
         console.log("this is bird voice")
     }
 }
