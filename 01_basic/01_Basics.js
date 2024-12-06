@@ -4,7 +4,7 @@
 // Number:2,3,4,1.5,24
 // -String: "rohit" or 'rahul'
 // -Boolean: true or false 
-// -null nothing 
+// -null :nothing 
 // -undefined
 
 
