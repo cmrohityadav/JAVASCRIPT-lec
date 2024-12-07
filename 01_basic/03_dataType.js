@@ -34,6 +34,9 @@ it actually represent empty value
 let b=10;
 b=null;
 
+7. Bigint
+
+8. Symbol
 
 Primitive Data type:
 which are atomic in nature
