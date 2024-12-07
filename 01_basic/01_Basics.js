@@ -1,4 +1,5 @@
 // value and datatype 
+
 // primitive Data Type
 
 // Number:2,3,4,1.5,24
