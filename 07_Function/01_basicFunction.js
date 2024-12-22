@@ -31,5 +31,18 @@ if you dont return anything in the function then then it will return
 undefined
 
 
-
 */
+
+
+// function inside a fucntion::HOF
+function orderTea(teaType){
+
+    function confirmOrder(){
+        return `Order confirmed for Chai`
+
+    }
+    return confirmOrder()
+}
+
+let orderConfirmation=orderTea("lemon")
+console.log(orderConfirmation)
