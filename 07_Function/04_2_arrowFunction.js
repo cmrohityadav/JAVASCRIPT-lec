@@ -20,4 +20,4 @@ const calculateTotal=(price,qty)=>{
 // below code is also fine :: just write in one single line
 // calculateTotal=(price,qty)=>return price*qty;
 let totalCost=calculateTotal(10,50)
-console.log(totalCost)
+console.log(totalCost) 
