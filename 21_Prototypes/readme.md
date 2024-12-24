@@ -1,0 +1,1 @@
+extra property and functionalities given to a Data
