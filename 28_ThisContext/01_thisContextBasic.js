@@ -11,5 +11,5 @@ person.greet();
 const greetFunction=person.greet
 greetFunction() // here undefined bcz context is loss
 
-const boundGreet=person.greet.apply.bind({name:"rahul"})
+const boundGreet=person.greet.bind({name:"rahul"})
 console.log(boundGreet())
